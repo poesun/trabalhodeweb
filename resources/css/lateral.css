@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    
+}
+
+nav.menu-lateral
+{
+    width: 75px;
+    height:  100%;
+    background-color: rgb(62, 99, 180);
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 blue;
+
+    position:fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+
+nav.menu-lateral:hover{
+    width:200px;
+}
+.btn-expandir{
+    width: 100%;
+    padding-left: 5px;
+}
+
+.btn-expandir > i {
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+ul li.item-menu{
+    transition: .2s;
+    margin-bottom: 10px;
+    width: 175px;
+}
+
+ul li.item-menu:hover{
+    background: #e6bb00;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+ul li.item-menu a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 4%; 
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 40px;
+}
+
+ul li.item-menu a .icon > i{
+    font-size: 30px;
+
+}
